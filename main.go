@@ -49,8 +49,8 @@ type SomeError struct {
 }
 
 // Error implements the error interface on SomeError
-func (uke SomeError) Error() string {
-	return uke.text
+func (s SomeError) Error() string {
+	return s.text
 }
 
 // errorSomeError represents the exact error that will be generated downstream
