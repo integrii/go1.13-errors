@@ -14,7 +14,7 @@ func main() {
 
 	// do something that causes an error
 	err := doBadCodepath()
-	fmt.Println("Plan println:")
+	fmt.Println("Plain println:")
 	fmt.Println(err)
 
 	// check if this is an errorSomeError
